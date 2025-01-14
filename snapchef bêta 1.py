@@ -110,7 +110,7 @@ déf style():
     }
 
     bouton:survoler {
-        couleur d'arrière-plan : #527a3d ;
+        couleur d'arrière-plan : #84f549 ;
     }
     """, 200, {'Type de contenu': 'texte/css'}
 
@@ -122,5 +122,3 @@ def detect_food_items(chemin_image) :
 si __name__ == '__main__':
     print("Démarrage de l'application Flask") # Sortie de débogage
     app.run(debug=True, use_reloader=False, host='0.0.0.0')
-@Enzo445-tech
-Commentaire
